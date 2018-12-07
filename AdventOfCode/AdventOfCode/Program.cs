@@ -40,8 +40,8 @@ namespace AdventOfCode
                         Console.WriteLine($"> The solution to Day 1 (2/2) is '{DayOne.SolvePartTwo()}'");
                         break;
                     case 2:
-                        DayTwo.SolvePartOne();
-                        DayTwo.SolvePartTwo();
+                        Console.WriteLine($"> The solution to Day 2 (1/2) is '{DayTwo.SolvePartOne()}'");
+                        Console.WriteLine($"> The solution to Day 2 (2/2) is '{DayTwo.SolvePartTwo()}'");
                         break;
                     default:
                         Console.WriteLine("> Invalid day entered.");
